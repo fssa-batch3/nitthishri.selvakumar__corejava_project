@@ -38,6 +38,7 @@ public class Logger {
 		  input.debug("shree");
 		  input.log(24);
 		  input.log("niki");
+		  
 	  }
 	  
 }
