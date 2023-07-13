@@ -1,5 +1,9 @@
 package day5.practice;
 
-public class ATM {
-
+public interface ATM {
+	
+    boolean deposit(Account account, double amount);
+    boolean withdraw(Account account,double amount) throws Exception;
+    double getBalance();
+    
 }
