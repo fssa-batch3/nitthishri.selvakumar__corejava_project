@@ -17,10 +17,6 @@
 			<version>5.9.1</version>
 			<scope>test</scope>
 		</dependency>
-  	<dependency>
-  		<groupId>com.fssa.yogeshwari</groupId>
-  		<artifactId>first-mvn-project-yogi</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	
   </dependencies>
 </project>

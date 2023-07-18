@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 public class TestTask {
 // We check the input task name is valid
 	
-@test
+@Test
 
 	
 	public void testvalid() {
@@ -14,7 +14,7 @@ public class TestTask {
 	
 //	we check the input task is invalide
 	
-@test
+@Test
 
 	public void testInvalid() {
 //		we check the input task name size minumum 2 and maximum 50
@@ -37,7 +37,7 @@ public class TestTask {
 	
 //	Test a task priority
 	
-@test
+@Test
 
 	public void testpriority() {
 		Assertions.assertTrue(Task.taskpriority(1));
@@ -45,7 +45,7 @@ public class TestTask {
 //	Test a task invalide priority
 	
 	
-@test
+@Test
 
 	public void testInValidpriority() {
 		try {
