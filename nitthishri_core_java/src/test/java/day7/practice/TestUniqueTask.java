@@ -85,7 +85,7 @@ public class TestUniqueTask {
 //	Check the task method is valid without duplicate
 	
 	
-@test
+@Test
 
 	public void testValidMethod() {
 		ArrayList<UniqueTask> taskList = new ArrayList<>();
