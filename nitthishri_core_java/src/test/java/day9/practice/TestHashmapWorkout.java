@@ -26,7 +26,7 @@ public class TestHashmapWorkout {
 		expectedList.add(29);
 		expectedList.add(99);
 
-		ArrayList<Integer> actualUniqueList = (ArrayList<Integer>) SortingUser.sortNumber(arrayList1);
+		ArrayList<Integer> actualUniqueList = (ArrayList<Integer>) HashmapWorkout.sortNumber(arrayList1);
 
 		Assertions.assertIterableEquals(expectedList, actualUniqueList);
 
@@ -41,7 +41,7 @@ public class TestHashmapWorkout {
 
 		try {
 
-			ArrayList<Integer> actualUniqueList = (ArrayList<Integer>) SortingUser.sortNumber(null);
+			ArrayList<Integer> actualUniqueList = (ArrayList<Integer>)  HashmapWorkout.sortNumber(null);
 			Assertions.fail("testInValidarray failed");
 		} catch (IllegalArgumentException ex) {
 
