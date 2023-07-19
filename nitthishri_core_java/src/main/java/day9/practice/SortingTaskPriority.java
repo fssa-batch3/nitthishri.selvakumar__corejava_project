@@ -103,13 +103,20 @@ public class SortingTaskPriority implements Comparable<SortingTaskPriority> {
 				+ "]";
 	}
 
-	public static void sortPriority(ArrayList<SortingTaskPriority> taskList) {
+	public static ArrayList<SortingTaskPriority> sortPriority(ArrayList<SortingTaskPriority> taskList)throws IllegalArgumentException {
+		
+		
+		if(taskList==null) {
+			throw new IllegalArgumentException("The array cannot be empty");
+			
+		}
 		Collections.sort(taskList);
 	for(SortingTaskPriority task:taskList) {
 		
 		System.out.println(task);
 		
 	}
+	return taskList;
 
 	}
 	
@@ -119,8 +126,9 @@ public class SortingTaskPriority implements Comparable<SortingTaskPriority> {
 
 		taskList.add(new SortingTaskPriority(1, "taseat", LocalDate.of(2023, 7, 19),2));
 		taskList.add(new SortingTaskPriority(5, "tasklearn", LocalDate.of(2023, 7, 11),1));
-		taskList.add(new SortingTaskPriority(2, "taseat", LocalDate.of(2023, 7, 15),2));
+		taskList.add(new SortingTaskPriority(2, "taskplay", LocalDate.of(2023, 7, 15),2));
 		taskList.add(new SortingTaskPriority(3, "tasklearn", LocalDate.of(2023, 7, 17),3));
+		taskList.add(new SortingTaskPriority(3, "tasklearn1", LocalDate.of(2023, 7, 17),1));
 //		System.out.println(taskList);
 		sortPriority(taskList);
 		

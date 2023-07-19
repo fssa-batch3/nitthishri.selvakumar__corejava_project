@@ -72,7 +72,8 @@ public class Comparable1 {
 		Accounts acct1 = new Accounts("A101", "Naresh", 1000);//
 		Accounts acct2 = new Accounts("A102", "Arun", 5000);//
 		Accounts acct3 = new Accounts("A103", "Karthik", 3000);//
-
+		
+                     
 		List<Accounts> list = new ArrayList<Accounts>();
 		list.add(acct1);
 		list.add(acct2);
