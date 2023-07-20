@@ -1,4 +1,4 @@
-package day6.practice;
+opackage day6.practice;
 
 // Add logic to remove duplicate tasks from the ArrayList
 
