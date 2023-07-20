@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 class InvalidEmailException extends RuntimeException {
 	
 
-	// Calling each super constructors for each of the types
+//	 Calling each super constructors for each of the types
 	public InvalidEmailException(String msg) {
 		super(msg);
 	}
