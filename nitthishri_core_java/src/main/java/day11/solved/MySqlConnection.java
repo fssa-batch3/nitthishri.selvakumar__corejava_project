@@ -4,7 +4,7 @@ public class MySqlConnection {
 public static void main(String[] args) throws SQLException {
 	String url = "jdbc:mysql://localhost:3306/fssa";
 	String userName = "root";
-	String password = "root";
+	String password = "123456";
 	
 	
 	Connection con = DriverManager.getConnection(url, userName, password);
@@ -13,3 +13,5 @@ public static void main(String[] args) throws SQLException {
        con.close();
 }
 } 
+
+

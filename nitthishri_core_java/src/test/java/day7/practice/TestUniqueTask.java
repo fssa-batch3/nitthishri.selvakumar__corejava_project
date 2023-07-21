@@ -45,7 +45,7 @@ public class TestUniqueTask {
 	
 //	we check the date or valid date
 	
-@test
+@Test
 
 	public void testValidTaskDate() {
 //		 in this line we get the current date from localDate.now method
@@ -58,7 +58,7 @@ public class TestUniqueTask {
 //	If we got the invalid input and catch  the Exception
 	
 	
-@test
+@Test
 
 	public void testInValidTaskDate() {
 		

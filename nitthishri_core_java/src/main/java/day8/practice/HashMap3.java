@@ -36,10 +36,9 @@ public class HashMap3 {
 			throw new IllegalArgumentException("A string cannot be null or empty");
 		}
 		
-		
-
-		 
+	
 		 String arr[] =s.split(",");
+		 
 		HashMap<String, Integer> countMap = new HashMap<String, Integer>();
 		for (int i = 0; i < arr.length; i++) {
 
