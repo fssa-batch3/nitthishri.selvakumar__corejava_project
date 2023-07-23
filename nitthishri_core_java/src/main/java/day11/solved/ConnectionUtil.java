@@ -18,9 +18,9 @@ public class ConnectionUtil {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection(url, userName, passWord);
         } catch (Exception e) {
-            e.printStackTrace();
+            e.printStackTrace();        
             throw new RuntimeException("Unable to connect to the database");
-        }
+        }                               
         return con;
     }
      

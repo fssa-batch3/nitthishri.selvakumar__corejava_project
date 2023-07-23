@@ -8,7 +8,7 @@ public class TestValidationEmail {
 	@Test
 	public void testValidEmailException() { 
 		
-		Assertions.assertTrue(EmailValidator.isValidEmail("mathan@gmail.com"));
+		Assertions.assertTrue(EmailValidator.isValidEmail("nitthishri@gmail.com"));
 		
 	}
 	
@@ -28,7 +28,7 @@ public class TestValidationEmail {
 	public void testInvalidEmailAddress() {
 		
 		try {
-			EmailValidator.isValidEmail("mathangmail.com");
+			EmailValidator.isValidEmail("nitthigmail.com");
 			Assertions.fail("Test Invalid Email Address Method Is Failded");
 		}catch(InvalidEmailException ex) {
 			Assertions.assertEquals("Invalided Email Address", ex.getMessage());

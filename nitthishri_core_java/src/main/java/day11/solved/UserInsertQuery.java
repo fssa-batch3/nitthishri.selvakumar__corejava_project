@@ -12,6 +12,10 @@ public class UserInsertQuery {
  
     public static void main(String[] args) throws Exception {       
          
+    	String url = "jdbc:mysql://localhost:3306/fssa";
+    	String userName = "root";
+    	String password = "123456";
+    	
         // Step 01: Get connection
         Connection connection = ConnectionUtil.getConnection();
         System.out.println(connection);
